@@ -78,6 +78,14 @@ config INTEGRATOR
     select PL181 # display
     select SMC91C111
 
+config LPC43XX
+    bool
+    default y
+    select ARM_V7M
+    select PL011
+    select PL022
+    imply ARM_COMPATIBLE_SEMIHOSTING
+
 config MAX78000FTHR
     bool
     default y

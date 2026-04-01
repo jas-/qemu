@@ -1,0 +1,5 @@
+changing dir to build for make ""...
+make[1]: Entering directory '/workspaces/qemu/build'
+[1/144] Generating tests/include/QAPI test (include) with a custom command
+[2/112] Generating qemu-version.h with a custom command (wrapped by meson to capture output)
+make[1]: Leaving directory '/workspaces/qemu/build'
